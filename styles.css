@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+:root {
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+  --font-size: 18px;
+  --font-family: "Bai Jamjuree", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+.br-desktop {
+  display: block;
+}
+
+.br-mobile {
+  display: none;
+}
+
+.custom-mt-1 {
+  margin: 7.0556rem 0 0 0;
+}
+
+.custom-mt-2 {
+  margin: 3.2222rem 0 0 0;
+}
+
+.custom-mt-3 {
+  margin: 1rem 0 0 0;
+}
+
+.custom-mt-4 {
+  margin: 2.5rem 0 0 0;
+}
+
+.custom-mt-5 {
+  margin: 8.2778rem 0 0 0;
+}
+
+.custom-mt-6 {
+  margin: 1.1667rem 0 0 0;
+}
+
+.custom-mt-7 {
+  margin: 4.2222rem 0 0 0;
+}
+
+.custom-mt-8 {
+  margin: 3.8333rem 0 0 0;
+}
+
+.custom-mt-9 {
+  margin: 2.3333rem 0 0 0;
+}
+
+.custom-mt-10 {
+  margin: 8.3333rem 0 0 0;
+}
+
+.custom-mt-11 {
+  margin: 1.2222rem 0 0 0;
+}
+
+.custom-mt-12 {
+  margin: 5.5556rem 0 0 0;
+}
+
+.custom-mt-13 {
+  margin: 4.1111rem 0 0 0;
+}
+
+.custom-mt-14 {
+  margin: 2.1667rem 0 0 0;
+}
+
+.custom-mt-15 {
+  margin: 0.9444rem 0 0 0;
+}
+
+.custom-mt-16 {
+  margin: 2.6111rem 0 0 0;
+}
+
+.custom-mt-17 {
+  margin: 1.0556rem 0 0 0;
+}
+
+.custom-mt-18 {
+  margin: 8.7222rem 0 0 0;
+}
+
+.custom-mt-19 {
+  margin: 6.6667rem 0 0 0;
+}
+
+.custom-mt-20 {
+  margin: 1.1111rem 0 0 0;
+}
+
+.custom-mt-21 {
+  margin: 2.6667rem 0 0 0;
+}
+
+.custom-mt-22 {
+  margin: 8.2222rem 0 0 0;
+}
+
+.custom-mt-23 {
+ margin: 0.8333rem 0 0 0;
+}
+
+.custom-px-1 {
+  padding: 0 8.3333rem;
+}
+
+.mr-10 {
+  margin: 0 0.5556rem 0 0;
+}
+
+.mx-22 {
+  margin: 0 1.2222rem;
+}
+
+.custom-p-1 {
+  padding: 2.2222rem 0 2.7778rem;
+}
+
+.pl-21 {
+  padding: 0 0 0 1.1667rem;
+}
+
+.custom-mx-1 {
+  margin: 0 1.2778rem;
+}
+
+.text-dark-grayish-blue {
+  color: var(--dark-grayish-blue);
+}
+
+.text-grayish-blue {
+  color: var(--grayish-blue);
+}
+
+.bg-grayish-blue {
+  background: hsla(201, 11%, 66%, 0.1);
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.container-fluid {
+  max-width: 1440px;
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: auto;
+  border: 0.1px solid transparent;
+}
+
+.header {
+  font-size: 2.4722rem;
+}
+
+.description {
+  font-size: 1.1306rem;
+}
+
+.btn-custom {
+  width: 227px;
+  height: 57px;
+  font-size: 1rem;
+  letter-spacing: 0.0444rem;
+}
+
+.cyan {
+  background: var(--strong-cyan);
+  border-bottom: 3px solid hsl(171, 69%, 34%);
+  box-shadow: -7px 27px 34px -23px hsl(171, 66%, 44%);
+}
+
+.blue {
+  background: var(--light-blue);
+  border-bottom: 3px solid hsl(233, 54%, 55%);
+  box-shadow: -7px 27px 34px -23px hsl(210, 10%, 33%);
+}
+
+.sub-header {
+  font-size: 1.9444rem;
+}
+
+.sub-header-description {
+  font-size: 1.0167rem;
+  line-height: 1.6em;
+}
+
+.feature {
+  font-size: 1.2944rem;
+}
+
+.feature-description {
+  font-size: 0.9056rem;
+  line-height: 1.8em;
+}
+
+ul li a:hover {
+  color: var(--strong-cyan);
+}
+
+.logo-footer {
+  width: 55px;
+  height: 55px;
+}
+
+.fa-twitter-size {
+  font-size: 1.3889rem;
+}
+
+.fa-instagram-size {
+  font-size: 1.5rem;
+}
+
+.fa-facebook-size {
+  font-size: 1.5556rem;
+}
+
+.attribution {
+  font-size: 0.6111rem;
+  text-align: center;
+  margin: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
